@@ -13,26 +13,26 @@ import CustomButton from "../components/CustomButton";
 export default function Index() {
   return (
     <ImageBackground
-      source={require("../assets/images/coffee1.png")}
+      source={require("../assets/images/Pizza1.png")}
       style={styles.container}
     >
       <StatusBar/>
       <View style={styles.overlay}>
         <Text style={styles.title}>
           Fall In Love With{"\n"}
-          Coffee In Blissful{"\n"}
-          Delight!
+          Freshly Baked{"\n"}
+          Pizza!
         </Text>
 
         <Text style={styles.desc}>
-          Welcome to our cozy coffee corner,
-          where every cup is delightful.
+        Hot, cheesy, and made with the freshest ingredients.
+        very slice is baked to perfection just for you.
         </Text>
 
         <CustomButton
           title="Get Started"
           onPress={() =>
-            router.push("/tabs/home")
+            router.push("login")
           }
         />
       </View>

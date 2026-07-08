@@ -14,7 +14,7 @@ export default function PromoBanner() {
       </View>
 
       <Image
-        source={require("../assets/images/coffee2.png")}
+        source={require("../assets/images/Pizza.png")}
         style={styles.image}
       />
     </View>

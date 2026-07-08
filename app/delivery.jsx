@@ -96,7 +96,7 @@ export default function Delivery() {
         <View style={styles.courierRow}>
 
           <Image
-            source={require("../assets/images/coffee3.png")}
+            source={require("../assets/images/Pizza8.png")}
             style={styles.avatar}
           />
 

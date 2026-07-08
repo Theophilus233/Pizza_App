@@ -16,7 +16,7 @@ import {
         />
   
         <TextInput
-          placeholder="Search coffee"
+          placeholder="Search for your favorite Pizza"
           placeholderTextColor="#999"
           style={styles.input}
         />

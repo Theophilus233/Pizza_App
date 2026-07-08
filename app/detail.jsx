@@ -35,7 +35,7 @@ export default function Detail() {
         />
       </View>
 
-      {/* Coffee Image */}
+      {/* Pizza Image */}
 
       <Image
         source={require("../assets/images/coffee1.png")}
@@ -45,11 +45,11 @@ export default function Detail() {
       {/* Product */}
 
       <Text style={styles.name}>
-        Caffe Mocha
+      Pepperoni
       </Text>
 
       <Text style={styles.type}>
-        Ice/Hot
+      Cheese Pizza
       </Text>
 
       <View style={styles.ratingRow}>

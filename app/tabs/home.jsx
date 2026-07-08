@@ -9,10 +9,11 @@ import {
   import SearchBar from "../../components/SearchBar";
   import PromoBanner from "../../components/PromoBanner";
   import CategoryButton from "../../components/CategoryTabs";
-  import CoffeeCard from "../../components/CoffeeCard";
+  import PizzaCard from "../../components/PizzaCard";
   
-  import coffeeData from "../../data/coffeeData";
-  
+ // import pizzaData from "../../data/pizzaData";
+  import pizzaData from "../../data/pizzaData";
+
   export default function Home() {
     return (
       <View style={styles.container}>
@@ -26,7 +27,7 @@ import {
           </Text>
   
           <Text style={styles.location}>
-            Bintumgibali ▼
+            Accra Mallam Junction ▼
           </Text>
   
           <View style={{ marginTop: 20 }}>
@@ -53,27 +54,27 @@ import {
               style={styles.categories}
             >
               <CategoryButton
-                title="All Coffee"
+                title="All Pizza"
                 active
               />
   
               <CategoryButton
-                title="Machiato"
+                title="Pepperoni"
               />
   
               <CategoryButton
-                title="Latte"
+                title="Margherita"
               />
   
               <CategoryButton
-                title="Americano"
+                title="Cheese Pizza"
               />
             </ScrollView>
   
             {/* Coffee Grid */}
   
             <FlatList
-              data={coffeeData}
+              data={pizzaData}
               numColumns={2}
               scrollEnabled={false}
               columnWrapperStyle={{
@@ -84,7 +85,7 @@ import {
                 item.id.toString()
               }
               renderItem={({ item }) => (
-                <CoffeeCard item={item} />
+                <PizzaCard item={item} />
               )}
             />
           </View>

@@ -8,7 +8,7 @@ import {
   StyleSheet,
 } from "react-native";
 
-export default function CoffeeCard({
+export default function PizzaCard({
   item,
 }) {
   const router = useNavigation()
